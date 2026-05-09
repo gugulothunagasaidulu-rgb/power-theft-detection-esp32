@@ -67,3 +67,8 @@ ESP32 Microcontroller
    |
    v
  Load
+ ## Hardware Output Demo
+
+The image below shows the working prototype with ESP32, ACS712 current sensor, relay module, buzzer, LCD display, and Arduino IDE serial monitor output.
+
+![Hardware Output Demo](images/hardware-output-demo.jpg)
