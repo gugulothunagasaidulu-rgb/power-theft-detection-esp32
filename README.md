@@ -73,3 +73,12 @@ ESP32 Microcontroller
 The image below shows the working prototype with ESP32, ACS712 current sensor, relay module, buzzer, LCD display, and Arduino IDE serial monitor output.
 
 ![Hardware Output Demo](images/hardware-output-demo.jpg)
+
+
+## Results
+
+- The system monitors current using the ACS712 current sensor.
+- When the current is within the normal range, the relay remains ON and the load continues to operate.
+- When abnormal current consumption is detected, the ESP32 turns OFF the relay, activates the buzzer, and displays “THEFT DETECTED” on the LCD.
+- The prototype successfully demonstrates automatic detection and load disconnection for power theft prevention.
+
